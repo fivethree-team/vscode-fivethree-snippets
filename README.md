@@ -1,65 +1,38 @@
-# vscode-fivethree-snippets
+# Fivethree Snippets for VS Code
 
-This is the README for your extension "vscode-fivethree-snippets". After writing up a brief description, we recommend including the following sections.
+Visual Studio Code Extension adds TypeScript and HTML snippets for Fivethree Web Components.
 
-## Features
+All code snippets are based on and follow the Angular style guide [Fivethree Web Components](https://github.com/fivethree-team/fivethree).
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## Using Snippets for Ionic v4
 
-For example if there is an image subfolder under your extension project workspace:
+Type part of a snippet, press enter, and the snippet unfolds.
 
-\!\[feature X\]\(images/feature-x.png\)
+### Overview
+* [Snippet Prefix](https://github.com/fivethree-team/vscode-fivethree-snippets#snippet-prefix)
+* [HTML Snippets](https://github.com/fivethree-team/vscode-fivethree-snippets#html-snippets)
+* [SCSS Snippets](https://github.com/fivethree-team/vscode-fivethree-snippets#scss-snippets)
+* [Typescript Snippets](https://github.com/fivethree-team/vscode-fivethree-snippets#typescript-snippets)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+### Snippet Prefix
 
-## Requirements
+| Prefix | Description |
+| ------- | ----------|
+| `f-` | Ionic Snippets |
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+### HTML Snippets
 
-## Extension Settings
+| Snippet                      | Purpose                                                      |
+| ---------------------------- | ------------------------------------------------------------ |
+| `f-loading-fab`                | `<fiv-loading-fab>`                                                    |
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+### SCSS Snippets
 
-For example:
+| Snippet                      | Purpose                                                      |
+| ---------------------------- | ------------------------------------------------------------ |
 
-This extension contributes the following settings:
+### Typescript Snippets
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+| Snippet                      | Purpose                                                      |
+| ---------------------------- | ------------------------------------------------------------ |
 
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**

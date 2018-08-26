@@ -17,6 +17,15 @@
     "categories": [
         "Snippets"
     ],
+    "keywords": [
+        "fivethree",
+        "web-components",
+        "Ionic",
+        "Angular",
+        "TypeScript",
+        "HTML",
+        "Snippets"
+    ],
     "contributes": {
         "snippets": [
             {

@@ -1,0 +1,11 @@
+{
+    "fiv-loading-fab": {
+        "prefix": "f-loading-fab",
+        "body": [
+            "<fiv-loading-fab checkmark=\"${1:true}\" (onComplete)=\"${2:onCompleted()}\" loading=\"${3:true}\" #fab (click)=\"fab.loading ? fab.complete() : fab.toggleSpinner()\"",
+            "\thorizontal=\"${4:end}\" vertical=\"${5:bottom}\" icon=\"${6:add}\" spinColor=\"${7:dark}\" fabColor=\"${8:light}\">",
+            "</fiv-loading-fab>"
+        ],
+        "description": "<fiv-loading-fab>"
+    }
+}

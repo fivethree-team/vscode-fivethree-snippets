@@ -1,0 +1,50 @@
+{
+    "name": "vscode-fivethree-snippets",
+    "displayName": "Fivethree Snippets",
+    "description": "Fivethree Web Components Snippets for VS Code",
+    "version": "0.0.1",
+    "publisher": "fivethree",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fivethree-team/vscode-fivethree-snippets.git"
+    },
+    "bugs": {
+        "url": "https://github.com/fivethree-team/vscode-fivethree-snippets/issues"
+    },
+    "engines": {
+        "vscode": "^1.26.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.sayHello"
+    ],
+    "main": "./out/extension",
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/html.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/typescript.json"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "npm run compile && node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.21",
+        "tslint": "^5.8.0",
+        "@types/node": "^8.10.25",
+        "@types/mocha": "^2.2.42"
+    }
+}

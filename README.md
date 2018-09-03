@@ -4,7 +4,7 @@ Visual Studio Code Extension adds TypeScript and HTML snippets for Fivethree Web
 
 All code snippets are based on and follow the Angular style guide [Fivethree Web Components](https://github.com/fivethree-team/fivethree).
 
-## Using Snippets for Ionic v4
+## Using Snippets for Fivethree Web Components
 
 Type part of a snippet, press enter, and the snippet unfolds.
 
@@ -18,12 +18,13 @@ Type part of a snippet, press enter, and the snippet unfolds.
 
 | Prefix | Description |
 | ------- | ----------|
-| `f-` | Ionic Snippets |
+| `f-` | Fivethree Snippets |
 
 ### HTML Snippets
 
 | Snippet                      | Purpose                                                      |
 | ---------------------------- | ------------------------------------------------------------ |
+| `f-item-expandable`                | `<fiv-item-expandable>` w/ `<ion-item>`                                                    |
 | `f-loading-fab`                | `<fiv-loading-fab>`                                                    |
 
 ### SCSS Snippets

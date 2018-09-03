@@ -1,4 +1,17 @@
 {
+    "fiv-item-expandable": {
+        "prefix": "f-item-expandable",
+        "body": [
+            "<fiv-item-expandable text=\"${1:Ducks}\" icon=\"${2:search}\"", 
+            "\ticonSlot=\"${3|start,end|}\" color=\"${4|primary,secondary,tertiary|}\"",
+            "\t[expanded]=\"${5|true,false|}\">",
+            "\t<ion-item>${6:Tick}</ion-item>",
+            "\t<ion-item>${7:Trick}</ion-item>",
+            "\t<ion-item>${8:Track}</ion-item>",
+            "</fiv-item-expandable>"
+        ],
+        "description": "<fiv-item-expandable> w/ <ion-item>"
+    },
     "fiv-loading-fab": {
         "prefix": "f-loading-fab",
         "body": [

@@ -2,7 +2,7 @@
     "name": "vscode-fivethree-snippets",
     "displayName": "Fivethree Snippets",
     "description": "Fivethree Web Components Snippets for VS Code",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "fivethree",
     "repository": {
         "type": "git",

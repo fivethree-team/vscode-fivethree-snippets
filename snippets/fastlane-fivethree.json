@@ -1,0 +1,69 @@
+{
+    "fiv-version": {
+        "prefix": "f-version",
+        "body": [
+            "${1:version_and_build_no} = fiv_version(ios: ${2|true,false|}, pathToConfigXML: \"${3:./config.xml}\")"
+        ],
+        "description": "fiv fastlane action for versioning"
+    },
+    "fiv-update-version": {
+        "prefix": "f-version-update",
+        "body": [
+            "${1:version} = fiv_update_version(pathToConfigXML: \"${2:./config.xml}\")"
+        ],
+        "description": "update the version number in config.xml"
+    },
+    "fiv-update-version-and-build-no": {
+        "prefix": "f-version-and-build-no-update",
+        "body": [
+            "${1:version_and_build_no} = fiv_update_version_and_build_no(ios: ${2|true,false|},pathToConfigXML: \"${3:./config.xml}\")"
+        ],
+        "description": "update the version adn build number in config.xml"
+    },
+    "fiv-increment-build-no": {
+        "prefix": "f-inc-build",
+        "body": [
+            "${1:build_no} = fiv_increment_build_no(ios: ${2|true,false|},pathToConfigXML: \"${3:./config.xml}\")"
+        ],
+        "description": "update the version number in config.xml"
+    },
+    "fiv-bump-version": {
+        "prefix": "f-bump-version",
+        "body": [
+            "fiv_bump_version(message: ${1:\"Version Bump: build #{version_and_build_no[:build_no]}, version: #{version_and_build_no[:version]}\"})"
+        ],
+        "description": "bump current version and push to remote"
+    },
+    "fiv-transparent_statusbar": {
+        "prefix": "f-transparent_statusbar",
+        "body": [
+            "fiv_add_transparent_statusbar(ios: ${1|true,false|},path: \"${2|platforms/android/app/src/java/#COM/COMPANY/APP/MainActivity.java,platforms/ios/#APPNAME/Classes/AppDelegate.m|}\")"
+        ],
+        "description": "add transparent statusbar to ios or android"
+    },
+    "fiv-ionic": {
+        "prefix": "f-ionic",
+        "body": [
+            "${1:outputpath} = fiv_ionic(",
+            "\tplatform: \"${2|android,ios,browser|}\"",
+            "\trelease: \"${3|true,false|}\"",
+            "\tprod: \"${4|true,false|}\"",
+            ")"
+        ],
+        "description": "add transparent statusbar to ios or android"
+    },
+    "fiv-sign-android": {
+        "prefix": "f-sign-android",
+        "body": [
+            "${1:outputpath} = fiv_sign_android(",
+            "\tkeystore_directory: \"${2:./.android_signing}\"",
+            "\tkeystore_name: \"${3:keystore_name}\"",
+            "\talias: \"${4:keystore_alias}\"",
+            "\tversion: \"${5:version}\"",
+            "\tbuild_no: \"${6:build_no\"",
+            ")"
+        ],
+        "description": "add transparent statusbar to ios or android"
+    }
+
+}

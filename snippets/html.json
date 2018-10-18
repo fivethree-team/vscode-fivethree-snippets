@@ -91,13 +91,10 @@
     "fiv-toolbar-search": {
         "prefix": "f-toolbar-search",
         "body": [
-            "<fiv-toolbar-search (close)=\"${1:onSearchbarClose()}\" (inputChange)=\"${2:onInputChange()}\"  placeholder=\"${3:Enter search query}\" title=\"${4:Titel}\">",
-            "<ion-back-button defaultHref=\"/home\" ${5|start,end|}></ion-back-button>",
-            "<ion-button ${5|start,end|}>",
-            "<ion-icon name=\"md-add\">",
-            "</ion-button>",
+            "<fiv-toolbar-search (fivClose)=\"${1:onSearchbarClose()}\" (fivInputChange)=\"${2:onInputChange()}\"  placeholder=\"${3:Enter search query}\" title=\"${4:Titel}\">",
+            "\t<ion-menu-button start></ion-menu-button>",
             "</fiv-toolbar-search>"
         ],
-        "description": "<fiv-loading-fab>"
+        "description": "<fiv-toolbar-search> w/ <ion-menu-button>"
     }
 }

@@ -24,6 +24,9 @@ Type part of a snippet, press enter, and the snippet unfolds.
 
 | Snippet                      | Purpose                                                      |
 | ---------------------------- | ------------------------------------------------------------ |
+| `f-app-bar`                | `<fiv-app-bar>`                                                    |
+| `f-bottom-sheet`                | `<fiv-bottom-sheet>`                                                    |
+| `f-bottom-sheet-content`                | `<fiv-bottom-sheet-content>`                                                    |
 | `f-item-expandable`                | `<fiv-item-expandable>` w/ `<ion-item>`                                                    |
 | `f-loading-fab`                | `<fiv-loading-fab>`                                                    |
 

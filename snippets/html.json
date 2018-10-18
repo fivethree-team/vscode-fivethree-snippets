@@ -1,8 +1,52 @@
 {
+    "fiv-app-bar": {
+        "prefix": "f-app-bar",
+        "body": [
+            "<fiv-app-bar position=\"${1|center,left,right|}\" fabVisible=\"${2|true,false|}\" icon=\"${3:add}\">",
+            "</fiv-app-bar>"
+        ],
+        "description": "<fiv-app-bar>"
+    },
+    "fiv-bottom-sheet": {
+        "prefix": "f-bottom-sheet",
+        "body": [
+            "<fiv-bottom-sheet [(state)]=\"${1:drawerState}\" [minimumHeight]=\"${2:24}\" [dockedHeight]=\"${3:170}\" [distanceTop]=\"${4:56}\" [shouldBounce]=\"${5|true,false|}\">",
+            "\t<fiv-bottom-sheet-content [float]=\"${6|true,false|}\" [rounded]=\"${7|true,false|}\" [handle]=\"${8|true,false|}\">",
+            "\t\t<ion-card>",
+            "\t\t\t<ion-card-header>",
+            "\t\t\t\t<ion-card-subtitle>Awesome Subtitle</ion-card-subtitle>",
+            "\t\t\t\t<ion-card-title>Awesome Title</ion-card-title>",
+            "\t\t\t</ion-card-header>",
+            "\t\t\t<ion-card-content>",
+            "\t\t\t\tAwesome content",
+            "\t\t\t</ion-card-content>",
+            "\t\t</ion-card>",
+            "\t</fiv-bottom-sheet-content>",
+            "</fiv-bottom-sheet>"
+        ],
+        "description": "<fiv-bottom-sheet>"
+    },
+    "fiv-bottom-sheet-content": {
+        "prefix": "f-bottom-sheet-content",
+        "body": [
+            "<fiv-bottom-sheet-content [float]=\"${1|true,false|}\" [rounded]=\"${2|true,false|}\" [handle]=\"${3|true,false|}\">",
+            "\t<ion-card>",
+            "\t\t<ion-card-header>",
+            "\t\t\t<ion-card-subtitle>Awesome Subtitle</ion-card-subtitle>",
+            "\t\t\t<ion-card-title>Awesome Title</ion-card-title>",
+            "\t\t</ion-card-header>",
+            "\t\t<ion-card-content>",
+            "\t\t\tAwesome content",
+            "\t\t</ion-card-content>",
+            "\t</ion-card>",
+            "</fiv-bottom-sheet-content>"
+        ],
+        "description": "<fiv-bottom-sheet-content>"
+    },
     "fiv-item-expandable": {
         "prefix": "f-item-expandable",
         "body": [
-            "<fiv-item-expandable text=\"${1:Ducks}\" icon=\"${2:search}\"", 
+            "<fiv-item-expandable text=\"${1:Ducks}\" icon=\"${2:search}\"",
             "\ticonSlot=\"${3|start,end|}\" color=\"${4|primary,secondary,tertiary|}\"",
             "\t[expanded]=\"${5|true,false|}\">",
             "\t<ion-item>${6:Tick}</ion-item>",
@@ -24,12 +68,12 @@
     "fiv-toolbar-search": {
         "prefix": "f-toolbar-search",
         "body": [
-           "<fiv-toolbar-search (close)=\"${1:onSearchbarClose()}\" (inputChange)=\"${2:onInputChange()}\"  placeholder=\"${3:Enter search query}\" title=\"${4:Titel}\">",
-           "<ion-back-button defaultHref=\"/home\" ${5|start,end|}></ion-back-button>",
-           "<ion-button ${5|start,end|}>",
-           "<ion-icon name=\"md-add\">",
-           "</ion-button>",
-       "</fiv-toolbar-search>"
+            "<fiv-toolbar-search (close)=\"${1:onSearchbarClose()}\" (inputChange)=\"${2:onInputChange()}\"  placeholder=\"${3:Enter search query}\" title=\"${4:Titel}\">",
+            "<ion-back-button defaultHref=\"/home\" ${5|start,end|}></ion-back-button>",
+            "<ion-button ${5|start,end|}>",
+            "<ion-icon name=\"md-add\">",
+            "</ion-button>",
+            "</fiv-toolbar-search>"
         ],
         "description": "<fiv-loading-fab>"
     }

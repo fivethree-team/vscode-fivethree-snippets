@@ -88,6 +88,24 @@
         ],
         "description": "<fiv-loading-fab>"
     },
+    "fiv-router-item": {
+        "prefix": "f-router-item",
+        "body": [
+            "<fiv-router-item position=\"${1|right,left,bottom,top,outline|}\" shape=\"${2|dot,line|}\" [matchChildUrl]=\"${3|true,false|}\" [pageUrl]=\"${4:/home}\">",
+            "\t<ion-menu-toggle auto-hide=\"false\">",
+            "\t\t<fiv-ripple>",
+            "\t\t\t<ion-item>",
+            "\t\t\t\t<ion-icon slot=\"start\" [name]=\"${4:home}\"></ion-icon>",
+            "\t\t\t\t<ion-label>",
+            "\t\t\t\t\t${5:Home}",
+            "\t\t\t\t</ion-label>",
+            "\t\t\t</ion-item>",
+            "\t\t</fiv-ripple>",
+            "\t</ion-menu-toggle>",
+            "</fiv-router-item>"
+        ],
+        "description": "<fiv-router-item>"
+    },
     "fiv-toolbar-search": {
         "prefix": "f-toolbar-search",
         "body": [

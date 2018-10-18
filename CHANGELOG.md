@@ -1,3 +1,20 @@
+<a name="0.0.7"></a>
+## [0.0.7](https://github.com/fivethree-team/vscode-fivethree-snippets/compare/v0.0.5...v0.0.7) (2018-10-18)
+
+
+### Bug Fixes
+
+* **fastlane:** add comma to action gym ([881e8a3](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/881e8a3))
+* **html:** toolbar-search with menu button ([ab7796a](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/ab7796a))
+
+
+### Features
+
+* **html:** add app-bar, bottom-sheet and bottom-sheet-content ([1e9bf79](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/1e9bf79))
+* **html:** add center and collapse menu directive and button ([ad92698](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/ad92698))
+
+
+
 <a name="0.0.6"></a>
 ## [0.0.6](https://github.com/fivethree-team/vscode-fivethree-snippets/compare/v0.0.5...v0.0.6) (2018-10-18)
 

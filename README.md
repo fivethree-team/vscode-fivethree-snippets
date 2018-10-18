@@ -35,7 +35,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `f-loading-fab`                | `<fiv-loading-fab>`                                                    |
 | `f-toolbar-search`                | `<fiv-toolbar-search>` w/ `<ion-menu-button>`                                                  |
 
-**[⬆ back to top](#verview)**
+**[⬆ back to top](#overview)**
 
 ### Directive Snippets
 

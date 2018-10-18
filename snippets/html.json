@@ -43,6 +43,29 @@
         ],
         "description": "<fiv-bottom-sheet-content>"
     },
+    "fiv-center": {
+        "prefix": "f-center",
+        "body": [
+            "[fivCenter]=\"{vertical: ${1|true,false|}, horizontal: ${2|true,false|}}\""
+        ],
+        "description": "[fiv-center] directive to center horizontal and vertical"
+    },
+    "fiv-collapse-menu": {
+        "prefix": "f-collapse-menu",
+        "body": [
+            "[fivCollapseMenu]=\"${1|true,false|}\" [hoverMenu]=\"${1|true,false|}\" #menu=menuCollapse"
+        ],
+        "description": "[fivCollapseMenu] directive to collapse your menu, add this to <ion-menu>"
+    },
+    "fiv-collapsable-menu-button": {
+        "prefix": "f-collapsable-menu-button",
+        "body": [
+            "<ion-buttons slot=\"start\">",
+            "\t<fiv-collapsable-menu-button #mb *fivIf=\"['desktop']\" [menu]=\"menu\"></fiv-collapsable-menu-button>",
+            "</ion-buttons>"
+        ],
+        "description": "<fiv-collapsable-menu-button> add this to <ion-toolbar> in the menu"
+    },
     "fiv-item-expandable": {
         "prefix": "f-item-expandable",
         "body": [

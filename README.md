@@ -35,20 +35,28 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `f-loading-fab`                | `<fiv-loading-fab>`                                                    |
 | `f-toolbar-search`                | `<fiv-toolbar-search>` w/ `<ion-menu-button>`                                                  |
 
+**[⬆ back to top](#verview)**
+
 ### Directive Snippets
 
 | Snippet                      | Purpose                                                      |
 | ---------------------------- | ------------------------------------------------------------ |
-| `f-center`                | `[fiv-center]` directive to center horizontal and vertical                                                    |
-| `f-collapse-menu`                | `[f-collapse-menu]` directive to collapse your menu, add this to <ion-menu>                |
+| `f-center`                | `[fivCenter]` directive to center horizontal and vertical                                                    |
+| `f-collapse-menu`                | `[fivCollapseMenu]` directive to collapse your menu, add this to `<ion-menu>`                |
+
+**[⬆ back to top](#overview)**
 
 ### SCSS Snippets
 
 | Snippet                      | Purpose                                                      |
 | ---------------------------- | ------------------------------------------------------------ |
 
+**[⬆ back to top](#overview)**
+
 ### Typescript Snippets
 
 | Snippet                      | Purpose                                                      |
 | ---------------------------- | ------------------------------------------------------------ |
+
+**[⬆ back to top](#overview)**
 

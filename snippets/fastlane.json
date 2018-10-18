@@ -274,13 +274,13 @@
         "prefix": "f-action-gym",
         "body": [
             "gym(",
-            "project: \"${1:MyApp.xcodeproj}\"",
-            "configuration: \"${2|Debug,Release|}\"",
-            "scheme: \"${3:MyApp}\"",
-            "silent: ${4|true,false|}",
-            "clean: ${5|true,false|}",
-            "output_directory: \"${6:path/to/dir}\"",
-            "output_name: \"${7:my-app.ipa}\"",
+            "\tproject: \"${1:MyApp.xcodeproj}\",",
+            "\tconfiguration: \"${2|Debug,Release|}\",",
+            "\tscheme: \"${3:MyApp}\",",
+            "\tsilent: ${4|true,false|},",
+            "\tclean: ${5|true,false|},",
+            "\toutput_directory: \"${6:path/to/dir}\",",
+            "\toutput_name: \"${7:my-app.ipa}\",",
             ")"
                        ],
         "description": ""

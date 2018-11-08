@@ -52,6 +52,48 @@
         ],
         "description": "add transparent statusbar to ios or android"
     },
+    "fiv-select-branding": {
+        "prefix": "f-select-branding",
+        "body": [
+            "${1:branding_key} = fiv_select_branding"
+        ],
+        "description": "select branding key from branding folder"
+    },
+    "fiv-select-branding-w-path": {
+        "prefix": "f-select-branding-w-path",
+        "body": [
+            "${1:branding_key} = fiv_select_branding(branding_folder: \"${2:../path_to_branding_folder}\")"
+        ],
+        "description": "select branding key from branding folder with path to branding folder"
+    },
+    "fiv-select-brandings": {
+        "prefix": "f-select-brandings",
+        "body": [
+            "${1:branding_keys} = fiv_select_brandings"
+        ],
+        "description": "select branding keys from branding folder"
+    },
+    "fiv-select-brandings-w-path": {
+        "prefix": "f-select-branding-w-path",
+        "body": [
+            "${1:branding_keys} = fiv_select_brandings(branding_folder: \"${2:../path_to_branding_folder}\")"
+        ],
+        "description": "select branding keys from branding folder with path to branding folder"
+    },
+    "fiv-selected-branding-key-env": {
+        "prefix": "f-selected-branding-key-env",
+        "body": [
+            "ENV['FIV_SELECTED_BRANDING_KEY']"
+        ],
+        "description": "selected branding key from ENV"
+    },
+    "fiv-selected-branding-path-env": {
+        "prefix": "f-selected-branding-path-env",
+        "body": [
+            "ENV['FIV_SELECTED_BRANDING_PATH']"
+        ],
+        "description": "selected branding path from ENV"
+    },
     "fiv-sign-android": {
         "prefix": "f-sign-android",
         "body": [

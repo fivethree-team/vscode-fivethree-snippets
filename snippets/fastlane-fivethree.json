@@ -62,7 +62,7 @@
     "fiv-select-branding-w-path": {
         "prefix": "f-select-branding-w-path",
         "body": [
-            "${1:branding_key} = fiv_select_branding(branding_folder: \"${2:../path_to_branding_folder}\")"
+            "${1:branding_key} = fiv_select_branding(branding_folder: \"${2:path_to_branding_folder}\")"
         ],
         "description": "select branding key from branding folder with path to branding folder"
     },
@@ -74,9 +74,9 @@
         "description": "select branding keys from branding folder"
     },
     "fiv-select-brandings-w-path": {
-        "prefix": "f-select-branding-w-path",
+        "prefix": "f-select-brandings-w-path",
         "body": [
-            "${1:branding_keys} = fiv_select_brandings(branding_folder: \"${2:../path_to_branding_folder}\")"
+            "${1:branding_keys} = fiv_select_brandings(branding_folder: \"${2:path_to_branding_folder}\")"
         ],
         "description": "select branding keys from branding folder with path to branding folder"
     },

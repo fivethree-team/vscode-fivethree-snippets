@@ -1,0 +1,15 @@
+{
+    "fiv-loading-button-click": {
+        "prefix": "f-loading-button-click",
+        "body": [
+            "${1:login}(${2:button}: LoadingButtonComponent) {",
+            "\t${2:button}.load();",
+            "\t$0",
+            "\t${2:button}.complete();",
+            "",
+            "\t${2:button}.unload();",
+            "}"
+        ],
+        "description": "<fiv-loading-button> method for (fivButtonClick)"
+    }
+}

@@ -32,7 +32,9 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `f-bottom-sheet-content`                | `<fiv-bottom-sheet-content>`                                                    |
 | `f-collapsable-menu-button`                | `<fiv-collapsable-menu-button>` add this to <ion-toolbar> in the menu                                                    |
 | `f-item-expandable`                | `<fiv-item-expandable>` w/ `<ion-item>`                                                    |
+| `f-loading-button`                | `<fiv-loading-button>`                                                    |
 | `f-loading-fab`                | `<fiv-loading-fab>`                                                    |
+| `f-password`                | `<fiv-password>`                                                    |
 | `f-toolbar-search`                | `<fiv-toolbar-search>` w/ `<ion-menu-button>`                                                  |
 
 **[⬆ back to top](#overview)**
@@ -57,6 +59,6 @@ Type part of a snippet, press enter, and the snippet unfolds.
 
 | Snippet                      | Purpose                                                      |
 | ---------------------------- | ------------------------------------------------------------ |
-
+| `f-loading-button-click`                | `<fiv-loading-button>` method for (fivButtonClick)                                           |
 **[⬆ back to top](#overview)**
 

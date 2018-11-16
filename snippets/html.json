@@ -7,13 +7,6 @@
         ],
         "description": "<fiv-app-bar>"
     },
-    "fiv-loading-button": {
-        "prefix": "f-loading-button",
-        "body": [
-            "<fiv-loading-button #${1:button} (fivButtonClick)=\"${2:login}(${1:button})\" [disabled]=\"${3:loginForm}.invalid\">${4:Login}</fiv-loading-button>"
-        ],
-        "description": "<fiv-loading-button>"
-    },
     "fiv-bottom-sheet": {
         "prefix": "f-bottom-sheet",
         "body": [
@@ -85,6 +78,13 @@
             "</fiv-item-expandable>"
         ],
         "description": "<fiv-item-expandable> w/ <ion-item>"
+    },
+    "fiv-loading-button": {
+        "prefix": "f-loading-button",
+        "body": [
+            "<fiv-loading-button #${1:button} (fivButtonClick)=\"${2:login}(${1:button})\" [disabled]=\"${3:loginForm}.invalid\">${4:Login}</fiv-loading-button>"
+        ],
+        "description": "<fiv-loading-button>"
     },
     "fiv-loading-fab": {
         "prefix": "f-loading-fab",

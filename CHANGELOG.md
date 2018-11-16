@@ -1,3 +1,25 @@
+<a name="0.0.10"></a>
+## [0.0.10](https://github.com/fivethree-team/vscode-fivethree-snippets/compare/v0.0.5...v0.0.10) (2018-11-16)
+
+
+### Bug Fixes
+
+* **fastlane:** add comma to action gym ([881e8a3](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/881e8a3))
+* **fastlane:** default path ([2c0269e](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/2c0269e))
+* **html:** toolbar-search with menu button ([ab7796a](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/ab7796a))
+
+
+### Features
+
+* **fastlane:** add select_branding(s) action snippets ([1f2e784](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/1f2e784))
+* **html:** add app-bar, bottom-sheet and bottom-sheet-content ([1e9bf79](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/1e9bf79))
+* **html:** add center and collapse menu directive and button ([ad92698](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/ad92698))
+* **html:** add password and loading-button ([94fe619](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/94fe619))
+* **html:** add router-item ([120f601](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/120f601))
+* **typescript:** add loading-button click method ([d183e6d](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/d183e6d))
+
+
+
 <a name="0.0.9"></a>
 ## [0.0.9](https://github.com/fivethree-team/vscode-fivethree-snippets/compare/v0.0.5...v0.0.9) (2018-11-08)
 

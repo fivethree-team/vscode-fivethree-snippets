@@ -7,6 +7,13 @@
         ],
         "description": "<fiv-app-bar>"
     },
+    "fiv-loading-button": {
+        "prefix": "f-loading-button",
+        "body": [
+            "<fiv-loading-button #${1:button} (fivButtonClick)=\"${2:login}(${1:button})\" [disabled]=\"${3:loginForm}.invalid\">${4:Login}</fiv-loading-button>"
+        ],
+        "description": "<fiv-loading-button>"
+    },
     "fiv-bottom-sheet": {
         "prefix": "f-bottom-sheet",
         "body": [
@@ -87,6 +94,13 @@
             "</fiv-loading-fab>"
         ],
         "description": "<fiv-loading-fab>"
+    },
+    "fiv-password": {
+        "prefix": "f-password",
+        "body": [
+            "<fiv-password placeholder=\"${1:Password}\" formControlName=\"${2:password}\"></fiv-password>"
+        ],
+        "description": "<fiv-password>"
     },
     "fiv-router-item": {
         "prefix": "f-router-item",

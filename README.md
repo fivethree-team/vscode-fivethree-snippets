@@ -31,10 +31,14 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `f-bottom-sheet`                | `<fiv-bottom-sheet>`                                                    |
 | `f-bottom-sheet-content`                | `<fiv-bottom-sheet-content>`                                                    |
 | `f-collapsable-menu-button`                | `<fiv-collapsable-menu-button>` add this to <ion-toolbar> in the menu                                                    |
-| `f-item-expandable`                | `<fiv-item-expandable>` w/ `<ion-item>`                                                    |
+| `f-expandable`                | `<fiv-expandable>` w/ `<ion-item>` and `<fiv-expandable-indicator>`                                                   |
+| `f-expandable-ripple-header`                | `<fiv-expandable>` w/ `<fiv-ripple>` effect around the header content                                                   |
+| `f-expandable-indicator`                | `<fiv-expandable-indicator>` w/ custom icon attribute                                                    |
 | `f-loading-button`                | `<fiv-loading-button>`                                                    |
 | `f-loading-fab`                | `<fiv-loading-fab>`                                                    |
 | `f-password`                | `<fiv-password>`                                                    |
+| `f-ripple`                | `<fiv-ripple>` effect for any component                                                   |
+| `f-router-item`                | `<fiv-router-item>` works greate in IonMenu                                                   |
 | `f-toolbar-search`                | `<fiv-toolbar-search>` w/ `<ion-menu-button>`                                                  |
 
 **[⬆ back to top](#overview)**

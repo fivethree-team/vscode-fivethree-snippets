@@ -66,18 +66,44 @@
         ],
         "description": "<fiv-collapsable-menu-button> add this to <ion-toolbar> in the menu"
     },
-    "fiv-item-expandable": {
-        "prefix": "f-item-expandable",
+    "fiv-expandable": {
+        "prefix": "f-expandable",
         "body": [
-            "<fiv-item-expandable text=\"${1:Ducks}\" icon=\"${2:search}\"",
-            "\ticonSlot=\"${3|start,end|}\" color=\"${4|primary,secondary,tertiary|}\"",
-            "\t[expanded]=\"${5|true,false|}\">",
-            "\t<ion-item>${6:Tick}</ion-item>",
-            "\t<ion-item>${7:Trick}</ion-item>",
-            "\t<ion-item>${8:Track}</ion-item>",
-            "</fiv-item-expandable>"
+            "<fiv-expandable #${1:ex} [isOpen]=\"${2|true,false|}\">",
+            "\t<ion-item header (click)=\"${1:ex}.toggle()\">",
+            "\t\t<ion-label>${3:Expandable Header}</ion-label>",
+            "\t\t<fiv-expandable-indicator icon=\"${4:ios-arrow-down}\"></fiv-expandable-indicator>",
+            "\t</ion-item>",
+            "\t<ion-list content>",
+            "\t\t<ion-item>${5:Expandable Content (height depends on contents size)}</ion-item>",
+            "\t</ion-list>",
+            "</fiv-expandable>"
         ],
-        "description": "<fiv-item-expandable> w/ <ion-item>"
+        "description": "<fiv-expandable> w/ <ion-item> and <fiv-expandable-indicator>"
+    },
+    "fiv-expandable-ripple-header": {
+        "prefix": "f-expandable-ripple-header",
+        "body": [
+            "<fiv-expandable #${1:ex} [isOpen]=\"${2|true,false|}\">",
+            "\t<fiv-ripple header [hover]=\"${3|true:false}\" (fivClick)=\"${1:ex}.toggle()\">",
+            "\t\t<ion-item>",
+            "\t\t\t<ion-label>${4:Expandable Header}</ion-label>",
+            "\t\t\t<fiv-expandable-indicator icon=\"${5:ios-arrow-down}\"></fiv-expandable-indicator>",
+            "\t\t</ion-item>",
+            "\t</fiv-ripple>",
+            "\t<ion-list content>",
+            "\t\t<ion-item>${6:Expandable Content (height depends on contents size)}</ion-item>",
+            "\t</ion-list>",
+            "</fiv-expandable>"
+        ],
+        "description": "<fiv-expandable> w/ <ion-item> and <fiv-expandable-indicator>"
+    },
+    "fiv-expandable-indicator": {
+        "prefix": "f-expandable-indicator",
+        "body": [
+            "<fiv-expandable-indicator icon=\"${1:ios-arrow-down}\"></fiv-expandable-indicator>"
+        ],
+        "description": "<fiv-expandable-indicator>"
     },
     "fiv-loading-button": {
         "prefix": "f-loading-button",
@@ -102,23 +128,19 @@
         ],
         "description": "<fiv-password>"
     },
+    "fiv-ripple": {
+        "prefix": "f-ripple",
+        "body": [
+            "<fiv-ripple [round]=\"${1|true,false}\" [hover]=\"${2|true,false}\" (fivClick)=\"${3:onRippleClicked()}\"></fiv-ripple>"
+        ],
+        "description": "<fiv-ripple> effect for any component"
+    },
     "fiv-router-item": {
         "prefix": "f-router-item",
         "body": [
-            "<fiv-router-item position=\"${1|right,left,bottom,top,outline|}\" shape=\"${2|dot,line|}\" [matchChildUrl]=\"${3|true,false|}\" [pageUrl]=\"${4:/home}\">",
-            "\t<ion-menu-toggle auto-hide=\"false\">",
-            "\t\t<fiv-ripple>",
-            "\t\t\t<ion-item>",
-            "\t\t\t\t<ion-icon slot=\"start\" [name]=\"${4:home}\"></ion-icon>",
-            "\t\t\t\t<ion-label>",
-            "\t\t\t\t\t${5:Home}",
-            "\t\t\t\t</ion-label>",
-            "\t\t\t</ion-item>",
-            "\t\t</fiv-ripple>",
-            "\t</ion-menu-toggle>",
-            "</fiv-router-item>"
+            "<fiv-router-item [icon]=\"${1:p}.${2:icon}\" [text]=\"${1:p}.${3:title}\" [matchChildUrl]=\"${4|true,false}\" [pageUrl]=\"${1:p}.${5:url}\" *ngFor=\"let ${1:p} of ${6:appPages}\"></fiv-router-item>"
         ],
-        "description": "<fiv-router-item>"
+        "description": "<fiv-router-item> works greate in IonMenu"
     },
     "fiv-toolbar-search": {
         "prefix": "f-toolbar-search",

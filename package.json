@@ -75,7 +75,7 @@
         "version": "conventional-changelog -p angular -i ./CHANGELOG.md -s"
     },
     "devDependencies": {
-        "typescript": "^2.6.1",
+        "typescript": "^3.2.2",
         "vscode": "^1.1.21",
         "tslint": "^5.8.0",
         "@types/node": "^8.10.25",

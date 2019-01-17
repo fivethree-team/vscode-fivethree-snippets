@@ -121,12 +121,12 @@
         ],
         "description": "<fiv-loading-fab>"
     },
-    "fiv-password": {
-        "prefix": "f-password",
+    "fiv-password-input": {
+        "prefix": "f-password-input",
         "body": [
-            "<fiv-password placeholder=\"${1:Password}\" formControlName=\"${2:password}\"></fiv-password>"
+            "<fiv-password-input placeholder=\"${1:Password}\" formControlName=\"${2:password}\"></fiv-password-input>"
         ],
-        "description": "<fiv-password>"
+        "description": "<fiv-password-input>"
     },
     "fiv-ripple": {
         "prefix": "f-ripple",

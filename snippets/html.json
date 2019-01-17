@@ -131,14 +131,14 @@
     "fiv-ripple": {
         "prefix": "f-ripple",
         "body": [
-            "<fiv-ripple [round]=\"${1|true,false}\" [hover]=\"${2|true,false}\" (fivClick)=\"${3:onRippleClicked()}\"></fiv-ripple>"
+            "<fiv-ripple [round]=\"${1|true,false|}\" [hover]=\"${2|true,false|}\" (fivClick)=\"${3:onRippleClicked()}\"></fiv-ripple>"
         ],
         "description": "<fiv-ripple> effect for any component"
     },
     "fiv-router-item": {
         "prefix": "f-router-item",
         "body": [
-            "<fiv-router-item [icon]=\"${1:p}.${2:icon}\" [text]=\"${1:p}.${3:title}\" [matchChildUrl]=\"${4|true,false}\" [pageUrl]=\"${1:p}.${5:url}\" *ngFor=\"let ${1:p} of ${6:appPages}\"></fiv-router-item>"
+            "<fiv-router-item [icon]=\"${1:p}.${2:icon}\" [text]=\"${1:p}.${3:title}\" [matchChildUrl]=\"${4|true,false|}\" [pageUrl]=\"${1:p}.${5:url}\" *ngFor=\"let ${1:p} of ${6:appPages}\"></fiv-router-item>"
         ],
         "description": "<fiv-router-item> works greate in IonMenu"
     },

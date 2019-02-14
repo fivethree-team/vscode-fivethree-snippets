@@ -36,6 +36,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `f-expandable-indicator`                | `<fiv-expandable-indicator>` w/ custom icon attribute                                                    |
 | `f-loading-button`                | `<fiv-loading-button>`                                                    |
 | `f-loading-fab`                | `<fiv-loading-fab>`                                                    |
+| `f-loading-progress-bar`                | `<fiv-loading-progress-bar>`                                                    |
 | `f-password-input`                | `<fiv-password-input>`                                                    |
 | `f-ripple`                | `<fiv-ripple>` effect for any component                                                   |
 | `f-router-item`                | `<fiv-router-item>` works greate in IonMenu                                                   |

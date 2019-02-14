@@ -105,6 +105,20 @@
         ],
         "description": "<fiv-expandable-indicator>"
     },
+    "fiv-image-viewer": {
+        "prefix": "f-image-viewer",
+        "body": [
+            "<fiv-image-viewer [src]=\"${1:image}\"></fiv-image-viewer>"
+        ],
+        "description": "<fiv-image-viewer>"
+    },
+    "fiv-image-viewer-actions": {
+        "prefix": "f-image-viewer-actions",
+        "body": [
+            "<fiv-image-viewer [src]=\"${1:image}\" (fivActionClick)=\"${2:onActionClick}($event)\" [actions]=\"[{icon: '${3:md-trash}', name: '${4:remove}'},{icon: '${5:md-send}', name: '${6:send}'}]\" ></fiv-image-viewer>"
+        ],
+        "description": "<fiv-image-viewer> w/ actions"
+    },
     "fiv-loading-button": {
         "prefix": "f-loading-button",
         "body": [
@@ -148,6 +162,45 @@
             "<fiv-router-item [icon]=\"${1:p}.${2:icon}\" [text]=\"${1:p}.${3:title}\" [matchChildUrl]=\"${4|true,false|}\" [pageUrl]=\"${1:p}.${5:url}\" *ngFor=\"let ${1:p} of ${6:appPages}\"></fiv-router-item>"
         ],
         "description": "<fiv-router-item> works greate in IonMenu"
+    },
+    "fiv-step": {
+        "prefix": "f-step",
+        "body": [
+            "<fiv-step [title]=\"${1:title}\" [subtitle]=\"${2:subtitle}\" [icon]=\"${3:add}\"></fiv-step>"
+        ],
+        "description": "<fiv-step>"
+    },
+    "fiv-step-loop": {
+        "prefix": "f-step-loop",
+        "body": [
+            "<fiv-step *ngFor=\"let ${1:step} of ${2:steps}\" [title]=\"${1:step}.${3:title}\" [subtitle]=\"${1:step}.${4:subtitle}\" [icon]=\"${1:step}.${5:add}\"></fiv-step>"
+        ],
+        "description": "<fiv-step> w/ *ngFor"
+    },
+    "fiv-step-full": {
+        "prefix": "f-step-full",
+        "body": [
+            "<fiv-step [title]=\"${1:title}\" [subtitle]=\"${2:subtitle}\" [icon]=\"${3:add}\" [open]=\"${4:true}\" [index]=\"${5:1}\" [isLast]=\"${6:false}\" ></fiv-step>"
+        ],
+        "description": "<fiv-step>"
+    },
+    "fiv-stepper": {
+        "prefix": "f-stepper",
+        "body": [
+            "<fiv-stepper #${1:stepper} (fivClick)=\"${2:onStepClicked}($event)\">"
+            "\t<fiv-step [title]=\"${3:title}\" [subtitle]=\"${4:subtitle}\" [icon]=\"${5:add}\"></fiv-step>",
+            "</fiv-stepper>"
+        ],
+        "description": "<fiv-stepper> w/ <fiv-step>"
+    },
+    "fiv-stepper-loop": {
+        "prefix": "f-stepper-loop",
+        "body": [
+            "<fiv-stepper #${1:stepper} (fivClick)=\"${2:onStepClicked}($event)\">"
+            "\t<fiv-step *ngFor=\"let ${3:step} of ${4:steps}\" [title]=\"${3:step}.${5:title}\" [subtitle]=\"${3:step}.${6:subtitle}\" [icon]=\"${3:step}.${7:add}\"></fiv-step>",
+            "</fiv-stepper>"
+        ],
+        "description": "<fiv-stepper> w/ <fiv-step>"
     },
     "fiv-toolbar-search": {
         "prefix": "f-toolbar-search",

@@ -34,12 +34,19 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `f-expandable`                | `<fiv-expandable>` w/ `<ion-item>` and `<fiv-expandable-indicator>`                                                   |
 | `f-expandable-ripple-header`                | `<fiv-expandable>` w/ `<fiv-ripple>` effect around the header content                                                   |
 | `f-expandable-indicator`                | `<fiv-expandable-indicator>` w/ custom icon attribute                                                    |
+| `f-image-viewer`                | `<fiv-image-viewer>`                                           |
+| `f-image-viewer-actions`                | `<fiv-image-viewer>` w/ actions                                             |
 | `f-loading-button`                | `<fiv-loading-button>`                                                    |
 | `f-loading-fab`                | `<fiv-loading-fab>`                                                    |
 | `f-loading-progress-bar`                | `<fiv-loading-progress-bar>`                                                    |
 | `f-password-input`                | `<fiv-password-input>`                                                    |
 | `f-ripple`                | `<fiv-ripple>` effect for any component                                                   |
 | `f-router-item`                | `<fiv-router-item>` works greate in IonMenu                                                   |
+| `f-step`                | `<fiv-step>`                                               |
+| `f-step-full`                | `<fiv-step>` w/ all inputs                                             |
+| `f-step-loop`                | `<fiv-step *ngFor>`                                             |
+| `f-stepper`                | `<fiv-stepper>` w/ `<fiv-step>`                                            |
+| `f-stepper-loop`                | `<fiv-stepper>` w/ `<fiv-step *ngFor>`                                            |
 | `f-toolbar-search`                | `<fiv-toolbar-search>` w/ `<ion-menu-button>`                                                  |
 
 **[⬆ back to top](#overview)**

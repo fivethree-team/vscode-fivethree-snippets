@@ -1,3 +1,12 @@
+## [0.0.13](https://github.com/fivethree-team/vscode-fivethree-snippets/compare/v0.0.12...v0.0.13) (2019-02-14)
+
+
+### Features
+
+* **loading-progress-bar:** add fiv-loading-progress-bar ([106a57f](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/106a57f))
+
+
+
 ## [0.0.12](https://github.com/fivethree-team/vscode-fivethree-snippets/compare/v0.0.5...v0.0.12) (2019-01-17)
 
 

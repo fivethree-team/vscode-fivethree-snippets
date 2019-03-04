@@ -159,9 +159,11 @@
     "fiv-router-item": {
         "prefix": "f-router-item",
         "body": [
-            "<fiv-router-item [icon]=\"${1:p}.${2:icon}\" [text]=\"${1:p}.${3:title}\" [matchChildUrl]=\"${4|true,false|}\" [pageUrl]=\"${1:p}.${5:url}\" *ngFor=\"let ${1:p} of ${6:appPages}\"></fiv-router-item>"
+            "<fiv-router-item  *ngFor=\"let ${1:p} of ${2:appPages}\" [icon]=\"${1:p}.${3:icon}\" [text]=\"${1:p}.${4:title}\"",
+            "\t[matchChildUrl]=\"${5|true,false|}\" [pageUrl]=\"${1:p}.${6:url}\"",
+            "\tshape=\"${7|line,dot,rounded|}\" position=\"${8|left,right|}\"></fiv-router-item>"
         ],
-        "description": "<fiv-router-item> works greate in IonMenu"
+        "description": "<fiv-router-item> works great in IonMenu w/ active state highlight of the current route"
     },
     "fiv-step": {
         "prefix": "f-step",
@@ -187,7 +189,7 @@
     "fiv-stepper": {
         "prefix": "f-stepper",
         "body": [
-            "<fiv-stepper #${1:stepper} (fivClick)=\"${2:onStepClicked}($event)\">"
+            "<fiv-stepper #${1:stepper} (fivClick)=\"${2:onStepClicked}($event)\">",
             "\t<fiv-step [title]=\"${3:title}\" [subtitle]=\"${4:subtitle}\" [icon]=\"${5:add}\"></fiv-step>",
             "</fiv-stepper>"
         ],
@@ -196,7 +198,7 @@
     "fiv-stepper-loop": {
         "prefix": "f-stepper-loop",
         "body": [
-            "<fiv-stepper #${1:stepper} (fivClick)=\"${2:onStepClicked}($event)\">"
+            "<fiv-stepper #${1:stepper} (fivClick)=\"${2:onStepClicked}($event)\">",
             "\t<fiv-step *ngFor=\"let ${3:step} of ${4:steps}\" [title]=\"${3:step}.${5:title}\" [subtitle]=\"${3:step}.${6:subtitle}\" [icon]=\"${3:step}.${7:add}\"></fiv-step>",
             "</fiv-stepper>"
         ],

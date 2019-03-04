@@ -10,12 +10,12 @@ All code snippets are based on and follow the Angular style guide [Fivethree Web
 
 Type part of a snippet, press enter, and the snippet unfolds.
 
-### Overview
-* [Snippet Prefix](https://github.com/fivethree-team/vscode-fivethree-snippets#snippet-prefix)
-* [HTML Snippets](https://github.com/fivethree-team/vscode-fivethree-snippets#html-snippets)
-* [Directive Snippets](https://github.com/fivethree-team/vscode-fivethree-snippets#directive-snippets)
-* [SCSS Snippets](https://github.com/fivethree-team/vscode-fivethree-snippets#scss-snippets)
-* [Typescript Snippets](https://github.com/fivethree-team/vscode-fivethree-snippets#typescript-snippets)
+### Table of Content
+* [Snippet Prefix](#snippet-prefix)
+* [HTML Snippets](#html-snippets)
+* [Directive Snippets](#directive-snippets)
+* [SCSS Snippets](#scss-snippets)
+* [Typescript Snippets](#typescript-snippets)
 
 ### Snippet Prefix
 
@@ -41,7 +41,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `f-loading-progress-bar`                | `<fiv-loading-progress-bar>`                                                    |
 | `f-password-input`                | `<fiv-password-input>`                                                    |
 | `f-ripple`                | `<fiv-ripple>` effect for any component                                                   |
-| `f-router-item`                | `<fiv-router-item>` works greate in IonMenu                                                   |
+| `f-router-item`                | `<fiv-router-item>` works great in IonMenu w/ active state highlight of the current route                                                   |
 | `f-step`                | `<fiv-step>`                                               |
 | `f-step-full`                | `<fiv-step>` w/ all inputs                                             |
 | `f-step-loop`                | `<fiv-step *ngFor>`                                             |
@@ -49,7 +49,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `f-stepper-loop`                | `<fiv-stepper>` w/ `<fiv-step *ngFor>`                                            |
 | `f-toolbar-search`                | `<fiv-toolbar-search>` w/ `<ion-menu-button>`                                                  |
 
-**[⬆ back to top](#overview)**
+**[⬆ back to top](#table-of-content)**
 
 ### Directive Snippets
 
@@ -58,19 +58,19 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `f-center`                | `[fivCenter]` directive to center horizontal and vertical                                                    |
 | `f-collapse-menu`                | `[fivCollapseMenu]` directive to collapse your menu, add this to `<ion-menu>`                |
 
-**[⬆ back to top](#overview)**
+**[⬆ back to top](#table-of-content)**
 
 ### SCSS Snippets
 
 | Snippet                      | Purpose                                                      |
 | ---------------------------- | ------------------------------------------------------------ |
-
-**[⬆ back to top](#overview)**
+| `f-router-item-props`                | Router Item CSS custom properties                                                    |
+**[⬆ back to top](#table-of-content)**
 
 ### Typescript Snippets
 
 | Snippet                      | Purpose                                                      |
 | ---------------------------- | ------------------------------------------------------------ |
 | `f-loading-button-click`                | `<fiv-loading-button>` method for (fivButtonClick)                                           |
-**[⬆ back to top](#overview)**
+**[⬆ back to top](#table-of-content)**
 

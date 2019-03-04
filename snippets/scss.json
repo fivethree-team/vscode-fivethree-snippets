@@ -1,0 +1,18 @@
+{
+    "fiv-router-item-props": {
+        "prefix": "f-router-item-props",
+        "body": [
+            "${1:fiv-router-item} {",
+            "\t--background-hover: ${2:#f4f5f8};",
+            "\t--background-line: ${3:#3880ff};",
+            "\t--background-rounded: ${4:#3880ff};",
+            "\t--border-radius-rounded-left: ${5:0 50px 50px 0};",
+            "\t--border-radius-rounded-right: ${6:50px 0 0 50px};",
+            "\t--color-active: ${7:#3880ff};",
+            "\t--opacity-rounded: ${8:0.25};",
+            "\t--width-line: ${9:4px};",
+            "}"
+        ],
+        "description": "Router Item CSS custom properties"
+    }
+}

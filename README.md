@@ -37,6 +37,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `f-image-viewer`                | `<fiv-image-viewer>`                                           |
 | `f-image-viewer-actions`                | `<fiv-image-viewer>` w/ actions                                             |
 | `f-loading-button`                | `<fiv-loading-button>`                                                    |
+| `f-loading-content`                | `<fiv-loading-content>`                                                    |
 | `f-loading-fab`                | `<fiv-loading-fab>`                                                    |
 | `f-loading-progress-bar`                | `<fiv-loading-progress-bar>`                                                    |
 | `f-password-input`                | `<fiv-password-input>`                                                    |
@@ -64,6 +65,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 
 | Snippet                      | Purpose                                                      |
 | ---------------------------- | ------------------------------------------------------------ |
+| `f-loading-progress-bar-props`                | Loading Progress Bar CSS custom properties                                                    |
 | `f-router-item-props`                | Router Item CSS custom properties                                                    |
 **[⬆ back to top](#table-of-content)**
 

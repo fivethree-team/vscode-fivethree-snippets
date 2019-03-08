@@ -1,4 +1,18 @@
 {
+    "fiv-loading-progress-bar-props": {
+        "prefix": "f-loading-progress-bar-props",
+        "body": [
+            "${1:fiv-loading-progress-bar} {",
+            "\t--background: ${2:#3880ff};",
+            "\t--color-spin-0: ${3:#3171e0};",
+            "\t--color-spin-25: ${3:#0bb8cc};",
+            "\t--color-spin-50: ${3:#633ce0};",
+            "\t--color-spin-75: ${3:#0ec254};",
+            "\t--color-spin-100: ${3:#ffd31a};",
+            "}"
+        ],
+        "description": "Loading Progress Bar CSS custom properties"
+    },
     "fiv-router-item-props": {
         "prefix": "f-router-item-props",
         "body": [

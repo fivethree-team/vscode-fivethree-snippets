@@ -65,6 +65,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 
 | Snippet                      | Purpose                                                      |
 | ---------------------------- | ------------------------------------------------------------ |
+| `f-loading-button-props`                | Loading Button CSS custom properties                                                    |
 | `f-loading-progress-bar-props`                | Loading Progress Bar CSS custom properties                                                    |
 | `f-router-item-props`                | Router Item CSS custom properties                                                    |
 **[⬆ back to top](#table-of-content)**

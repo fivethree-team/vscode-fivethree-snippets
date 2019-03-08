@@ -1,9 +1,23 @@
 {
+    "fiv-loading-button-props": {
+        "prefix": "f-loading-button-props",
+        "body": [
+            "${1:fiv-loading-button} {",
+            "\t--background-progress: ${2:#3880ff};",
+            "\t--color-progress-spin-0: ${3:#3171e0};",
+            "\t--color-progress-spin-25: ${3:#0bb8cc};",
+            "\t--color-progress-spin-50: ${3:#633ce0};",
+            "\t--color-progress-spin-75: ${3:#0ec254};",
+            "\t--color-progress-spin-100: ${3:#ffd31a};",
+            "}"
+        ],
+        "description": "Loading Button CSS custom properties"
+    },
     "fiv-loading-progress-bar-props": {
         "prefix": "f-loading-progress-bar-props",
         "body": [
             "${1:fiv-loading-progress-bar} {",
-            "\t--background: ${2:#3880ff};",
+            "\t--background-progress-bar: ${2:#3880ff};",
             "\t--color-spin-0: ${3:#3171e0};",
             "\t--color-spin-25: ${3:#0bb8cc};",
             "\t--color-spin-50: ${3:#633ce0};",

@@ -126,6 +126,16 @@
         ],
         "description": "<fiv-loading-button>"
     },
+    "fiv-loading-content": {
+        "prefix": "f-loading-content",
+        "body": [
+            "<fiv-loading-content #content (fivRefresh)=\"${1:fivRefresh}(${2:content})\"",
+            "\t(fivProgressChanged)=\"${4:fivProgressChanged}(${5:$event})\"",
+            "\t[hintText]=\"${6:'new posts'}\" [minPullHeight]=\"${7:112}\"",
+            "\t[maxPullHeight]=\"${8:168}\"></fiv-loading-content>"
+        ],
+        "description": "<fiv-loading-content>"
+    },
     "fiv-loading-fab": {
         "prefix": "f-loading-fab",
         "body": [

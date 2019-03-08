@@ -1,3 +1,17 @@
+## [0.1.2](https://github.com/fivethree-team/vscode-fivethree-snippets/compare/v0.0.12...v0.1.2) (2019-03-08)
+
+
+### Features
+
+* **image-viewer, step, stepper:** add image-viewer, step and stepper ([7699fbd](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/7699fbd))
+* **loading-button:** add loading-button css porps ([7d292b7](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/7d292b7))
+* **loading-content:** add fiv-loading-content snippet ([19bf771](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/19bf771))
+* **loading-progress-bar:** add custom css props snippet ([53ab403](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/53ab403))
+* **loading-progress-bar:** add fiv-loading-progress-bar ([106a57f](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/106a57f))
+* **router-item:** update html snippets and add custom css properties ([982a386](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/982a386))
+
+
+
 <a name="0.1.1"></a>
 ## [0.1.1](https://github.com/fivethree-team/vscode-fivethree-snippets/compare/v0.0.12...v0.1.1) (2019-03-08)
 

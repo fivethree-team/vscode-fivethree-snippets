@@ -129,10 +129,12 @@
     "fiv-loading-content": {
         "prefix": "f-loading-content",
         "body": [
-            "<fiv-loading-content #content (fivRefresh)=\"${1:fivRefresh}(${2:content})\"",
-            "\t(fivProgressChanged)=\"${4:fivProgressChanged}(${5:$event})\"",
-            "\t[hintText]=\"${6:'new posts'}\" [minPullHeight]=\"${7:112}\"",
-            "\t[maxPullHeight]=\"${8:168}\"></fiv-loading-content>"
+            "<fiv-loading-content #${2:content} (fivRefresh)=\"${1:fivRefresh}(${2:content})\"",
+            "\t(fivProgressChanged)=\"${3:fivProgressChanged}(\\$event)\"",
+            "\t[hintText]=\"'${4:new posts}'\" [minPullHeight]=\"${5:112}\"",
+            "\t[maxPullHeight]=\"${6:168}\">",
+            "$0",
+            "</fiv-loading-content>"
         ],
         "description": "<fiv-loading-content>"
     },

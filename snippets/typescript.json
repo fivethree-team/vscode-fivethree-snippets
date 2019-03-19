@@ -11,5 +11,15 @@
             "}"
         ],
         "description": "<fiv-loading-button> method for (fivButtonClick)"
+    },
+    "fiv-loading-content-do-refresh": {
+        "prefix": "f-loading-content-do-refresh",
+        "body": [
+            "${1:fivRefresh}(${2:content}: FivLoadingContent) {",
+            "\t$0",
+            "\t${2:content}.completeRefresh();",
+            "}"
+        ],
+        "description": "<fiv-loading-content fivRefresh> output handler method"
     }
 }

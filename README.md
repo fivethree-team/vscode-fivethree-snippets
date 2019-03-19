@@ -75,5 +75,6 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | Snippet                      | Purpose                                                      |
 | ---------------------------- | ------------------------------------------------------------ |
 | `f-loading-button-click`                | `<fiv-loading-button>` method for (fivButtonClick)                                           |
+| `f-loading-content-do-refresh`                | `<fiv-loading-content fivRefresh>` output handler method                                           |
 **[⬆ back to top](#table-of-content)**
 

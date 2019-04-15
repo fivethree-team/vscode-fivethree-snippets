@@ -150,7 +150,7 @@
     "fiv-loading-progress-bar": {
         "prefix": "f-loading-progress-bar",
         "body": [
-            "<fiv-loading-progress-bar (fivComplete)=\"${1:onLoadingComplete}($event)\" #${2:bar}></fiv-loading-progress-bar>"
+            "<fiv-loading-progress-bar (fivComplete)=\"${1:onLoadingComplete}(\\$event)\" #${2:bar}></fiv-loading-progress-bar>"
         ],
         "description": "<fiv-loading-progress-bar>"
     },

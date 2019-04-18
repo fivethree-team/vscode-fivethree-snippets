@@ -34,7 +34,9 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `f-expandable`                | `<fiv-expandable>` w/ `<ion-item>` and `<fiv-expandable-indicator>`                                                   |
 | `f-expandable-ripple-header`                | `<fiv-expandable>` w/ `<fiv-ripple>` effect around the header content                                                   |
 | `f-expandable-indicator`                | `<fiv-expandable-indicator>` w/ custom icon attribute                                                    |
-| `f-image-viewer`                | `<fiv-image-viewer>`                                           |
+| `f-gallary`                | `<fiv-gallery>`                                           |
+| `f-gallary-w-image`                | `<fiv-gallery>` w/ `<fiv-gallery-image>`                                           |
+| `f-gallary-image`                | `<fiv-gallery-image>`                                           |
 | `f-image-viewer-actions`                | `<fiv-image-viewer>` w/ actions                                             |
 | `f-loading-button`                | `<fiv-loading-button>`                                                    |
 | `f-loading-content`                | `<fiv-loading-content>`                                                    |

@@ -105,19 +105,30 @@
         ],
         "description": "<fiv-expandable-indicator>"
     },
-    "fiv-image-viewer": {
-        "prefix": "f-image-viewer",
+    "fiv-gallery": {
+        "prefix": "f-gallery",
         "body": [
-            "<fiv-image-viewer [src]=\"${1:image}\"></fiv-image-viewer>"
+            "<fiv-gallary>",
+            "$0",
+            "</fiv-gallary>"
         ],
-        "description": "<fiv-image-viewer>"
+        "description": "<fiv-gallary>"
     },
-    "fiv-image-viewer-actions": {
-        "prefix": "f-image-viewer-actions",
+    "fiv-gallery-w-image": {
+        "prefix": "f-gallery-w-image",
         "body": [
-            "<fiv-image-viewer [src]=\"${1:image}\" (fivActionClick)=\"${2:onActionClick}($event)\" [actions]=\"[{icon: '${3:md-trash}', name: '${4:remove}'},{icon: '${5:md-send}', name: '${6:send}'}]\" ></fiv-image-viewer>"
+            "<fiv-gallary>",
+            "\t<fiv-gallery-image [src]=\"${1:image}\"></fiv-gallery-image>",
+            "</fiv-gallary>"
         ],
-        "description": "<fiv-image-viewer> w/ actions"
+        "description": "<fiv-gallary-w-image>"
+    },
+    "fiv-gallery-image": {
+        "prefix": "f-gallery",
+        "body": [
+            "<fiv-gallery-image [src]=\"${1:image}\"></fiv-gallery-image>"
+        ],
+        "description": "<fiv-gallary-image>"
     },
     "fiv-loading-button": {
         "prefix": "f-loading-button",

@@ -37,6 +37,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 | `f-gallary`                | `<fiv-gallery>`                                           |
 | `f-gallary-w-image`                | `<fiv-gallery>` w/ `<fiv-gallery-image>`                                           |
 | `f-gallary-image`                | `<fiv-gallery-image>`                                           |
+| `f-gallary-toolbar`                | `<fiv-gallery-toolbar>`                                           |
 | `f-image-viewer-actions`                | `<fiv-image-viewer>` w/ actions                                             |
 | `f-loading-button`                | `<fiv-loading-button>`                                                    |
 | `f-loading-content`                | `<fiv-loading-content>`                                                    |

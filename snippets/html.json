@@ -108,27 +108,27 @@
     "fiv-gallery": {
         "prefix": "f-gallery",
         "body": [
-            "<fiv-gallary>",
+            "<fiv-gallery>",
             "$0",
-            "</fiv-gallary>"
+            "</fiv-gallery>"
         ],
-        "description": "<fiv-gallary>"
+        "description": "<fiv-gallery>"
     },
     "fiv-gallery-w-image": {
         "prefix": "f-gallery-w-image",
         "body": [
-            "<fiv-gallary>",
+            "<fiv-gallery>",
             "\t<fiv-gallery-image [src]=\"${1:image}\"></fiv-gallery-image>",
-            "</fiv-gallary>"
+            "</fiv-gallery>"
         ],
-        "description": "<fiv-gallary-w-image>"
+        "description": "<fiv-gallery-w-image>"
     },
     "fiv-gallery-image": {
         "prefix": "f-gallery",
         "body": [
             "<fiv-gallery-image [src]=\"${1:image}\"></fiv-gallery-image>"
         ],
-        "description": "<fiv-gallary-image>"
+        "description": "<fiv-gallery-image>"
     },
     "fiv-loading-button": {
         "prefix": "f-loading-button",

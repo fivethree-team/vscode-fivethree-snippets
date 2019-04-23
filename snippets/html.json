@@ -124,11 +124,20 @@
         "description": "<fiv-gallery-w-image>"
     },
     "fiv-gallery-image": {
-        "prefix": "f-gallery",
+        "prefix": "f-gallery-image",
         "body": [
             "<fiv-gallery-image [src]=\"${1:image}\"></fiv-gallery-image>"
         ],
         "description": "<fiv-gallery-image>"
+    },
+    "fiv-gallery-toolbar": {
+        "prefix": "f-gallery-toolbar",
+        "body": [
+            "<fiv-gallery-toolbar position=\"${1|bottom,top|}\">",
+            "\t$0",
+            "</fiv-gallery-toolbar>"
+        ],
+        "description": "<fiv-gallery-toolbar>"
     },
     "fiv-loading-button": {
         "prefix": "f-loading-button",

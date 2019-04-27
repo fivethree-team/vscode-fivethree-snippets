@@ -51,10 +51,6 @@
         "snippets": [
             {
                 "language": "ruby",
-                "path": "./snippets/fastlane.json"
-            },
-            {
-                "language": "ruby",
                 "path": "./snippets/fastlane-fivethree.json"
             },
             {

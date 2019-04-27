@@ -1,3 +1,53 @@
+<a name="0.2.0"></a>
+# [0.2.0](https://github.com/fivethree-team/vscode-fivethree-snippets/compare/v0.0.12...v0.2.0) (2019-04-27)
+
+
+### Bug Fixes
+
+* **gallery:** typo ([e749e12](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/e749e12))
+* **loading-content:** update templates in loading content ([8dec43b](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/8dec43b))
+* **loading-progress-bar:** escape $ for event ([13323a7](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/13323a7))
+
+
+### Features
+
+* **gallery:** add gallery and gallery-image snippets ([da91d44](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/da91d44))
+* **gallery-toolbar:** new gallery-toolbar snippet ([0cd9748](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/0cd9748))
+* **image-viewer, step, stepper:** add image-viewer, step and stepper ([7699fbd](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/7699fbd))
+* **loading-button:** add loading-button css porps ([7d292b7](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/7d292b7))
+* **loading-content:** add fiv-loading-content snippet ([19bf771](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/19bf771))
+* **loading-content:** fivRefresh output snippet ([88097d2](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/88097d2))
+* **loading-progress-bar:** add custom css props snippet ([53ab403](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/53ab403))
+* **loading-progress-bar:** add fiv-loading-progress-bar ([106a57f](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/106a57f))
+* **router-item:** update html snippets and add custom css properties ([982a386](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/982a386))
+
+
+
+<a name="0.2.0"></a>
+# [0.2.0](https://github.com/fivethree-team/vscode-fivethree-snippets/compare/v0.0.12...v0.2.0) (2019-04-27)
+
+
+### Bug Fixes
+
+* **gallery:** typo ([e749e12](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/e749e12))
+* **loading-content:** update templates in loading content ([8dec43b](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/8dec43b))
+* **loading-progress-bar:** escape $ for event ([13323a7](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/13323a7))
+
+
+### Features
+
+* **gallery:** add gallery and gallery-image snippets ([da91d44](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/da91d44))
+* **gallery-toolbar:** new gallery-toolbar snippet ([0cd9748](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/0cd9748))
+* **image-viewer, step, stepper:** add image-viewer, step and stepper ([7699fbd](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/7699fbd))
+* **loading-button:** add loading-button css porps ([7d292b7](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/7d292b7))
+* **loading-content:** add fiv-loading-content snippet ([19bf771](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/19bf771))
+* **loading-content:** fivRefresh output snippet ([88097d2](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/88097d2))
+* **loading-progress-bar:** add custom css props snippet ([53ab403](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/53ab403))
+* **loading-progress-bar:** add fiv-loading-progress-bar ([106a57f](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/106a57f))
+* **router-item:** update html snippets and add custom css properties ([982a386](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/982a386))
+
+
+
 ## [0.1.7](https://github.com/fivethree-team/vscode-fivethree-snippets/compare/v0.0.12...v0.1.7) (2019-04-23)
 
 

@@ -1,3 +1,8 @@
+<a name="0.2.1"></a>
+## [0.2.1](https://github.com/fivethree-team/vscode-fivethree-snippets/compare/v0.2.0...v0.2.1) (2019-04-27)
+
+
+
 <a name="0.2.0"></a>
 # [0.2.0](https://github.com/fivethree-team/vscode-fivethree-snippets/compare/v0.0.12...v0.2.0) (2019-04-27)
 

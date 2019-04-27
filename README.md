@@ -19,6 +19,10 @@ Type part of a snippet, press enter, and the snippet unfolds.
   * [Scss](#scss)
   * [Typescript](#typescript)
 
+# Snippets Documentation
+| Prefix | Description |
+| ------- | ----------|
+| `s-` | Svelte Snippets |
 
 ## Ruby
 

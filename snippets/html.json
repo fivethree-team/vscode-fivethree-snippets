@@ -136,7 +136,7 @@
   "fiv-icon": {
     "prefix": "f-icon",
     "body": [
-      "<fiv-icon slot=\"${1|start,end,icon-only|}\" [off]=\"${2:true,false}\" smallIcon=\"${3:pizza}\">",
+      "<fiv-icon slot=\"${1|start,end,icon-only|}\" [off]=\"${2:true,false}\" name=\"${3:pizza}\">",
       "</fiv-icon>"
     ],
     "description": "<fiv-icon>"

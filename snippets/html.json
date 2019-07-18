@@ -1,248 +1,250 @@
 {
-    "fiv-app-bar": {
-        "prefix": "f-app-bar",
-        "body": [
-            "<fiv-app-bar position=\"${1|center,left,right|}\" fabVisible=\"${2|true,false|}\" icon=\"${3:add}\">",
-            "</fiv-app-bar>"
-        ],
-        "description": "<fiv-app-bar>"
-    },
-    "fiv-bottom-sheet": {
-        "prefix": "f-bottom-sheet",
-        "body": [
-            "<fiv-bottom-sheet [(state)]=\"${1:drawerState}\" [minimumHeight]=\"${2:24}\" [dockedHeight]=\"${3:170}\" [distanceTop]=\"${4:56}\" [shouldBounce]=\"${5|true,false|}\">",
-            "\t<fiv-bottom-sheet-content [float]=\"${6|true,false|}\" [rounded]=\"${7|true,false|}\" [handle]=\"${8|true,false|}\">",
-            "\t\t<ion-card>",
-            "\t\t\t<ion-card-header>",
-            "\t\t\t\t<ion-card-subtitle>Awesome Subtitle</ion-card-subtitle>",
-            "\t\t\t\t<ion-card-title>Awesome Title</ion-card-title>",
-            "\t\t\t</ion-card-header>",
-            "\t\t\t<ion-card-content>",
-            "\t\t\t\tAwesome content",
-            "\t\t\t</ion-card-content>",
-            "\t\t</ion-card>",
-            "\t</fiv-bottom-sheet-content>",
-            "</fiv-bottom-sheet>"
-        ],
-        "description": "<fiv-bottom-sheet>"
-    },
-    "fiv-bottom-sheet-content": {
-        "prefix": "f-bottom-sheet-content",
-        "body": [
-            "<fiv-bottom-sheet-content [float]=\"${1|true,false|}\" [rounded]=\"${2|true,false|}\" [handle]=\"${3|true,false|}\">",
-            "\t<ion-card>",
-            "\t\t<ion-card-header>",
-            "\t\t\t<ion-card-subtitle>Awesome Subtitle</ion-card-subtitle>",
-            "\t\t\t<ion-card-title>Awesome Title</ion-card-title>",
-            "\t\t</ion-card-header>",
-            "\t\t<ion-card-content>",
-            "\t\t\tAwesome content",
-            "\t\t</ion-card-content>",
-            "\t</ion-card>",
-            "</fiv-bottom-sheet-content>"
-        ],
-        "description": "<fiv-bottom-sheet-content>"
-    },
-    "fiv-center": {
-        "prefix": "f-center",
-        "body": [
-            "[fivCenter]=\"{vertical: ${1|true,false|}, horizontal: ${2|true,false|}}\""
-        ],
-        "description": "[fiv-center] directive to center horizontal and vertical"
-    },
-    "fiv-collapse-menu": {
-        "prefix": "f-collapse-menu",
-        "body": [
-            "[fivCollapseMenu]=\"${1|true,false|}\" [hoverMenu]=\"${1|true,false|}\" #menu=menuCollapse"
-        ],
-        "description": "[fivCollapseMenu] directive to collapse your menu, add this to <ion-menu>"
-    },
-    "fiv-collapsable-menu-button": {
-        "prefix": "f-collapsable-menu-button",
-        "body": [
-            "<ion-buttons slot=\"start\">",
-            "\t<fiv-collapsable-menu-button #mb *fivIf=\"['desktop']\" [menu]=\"menu\"></fiv-collapsable-menu-button>",
-            "</ion-buttons>"
-        ],
-        "description": "<fiv-collapsable-menu-button> add this to <ion-toolbar> in the menu"
-    },
-    "fiv-expandable": {
-        "prefix": "f-expandable",
-        "body": [
-            "<fiv-expandable #${1:ex} [isOpen]=\"${2|true,false|}\">",
-            "\t<ion-item header (click)=\"${1:ex}.toggle()\">",
-            "\t\t<ion-label>${3:Expandable Header}</ion-label>",
-            "\t\t<fiv-expandable-indicator icon=\"${4:ios-arrow-down}\"></fiv-expandable-indicator>",
-            "\t</ion-item>",
-            "\t<ion-list content>",
-            "\t\t<ion-item>${5:Expandable Content (height depends on contents size)}</ion-item>",
-            "\t</ion-list>",
-            "</fiv-expandable>"
-        ],
-        "description": "<fiv-expandable> w/ <ion-item> and <fiv-expandable-indicator>"
-    },
-    "fiv-expandable-ripple-header": {
-        "prefix": "f-expandable-ripple-header",
-        "body": [
-            "<fiv-expandable #${1:ex} [isOpen]=\"${2|true,false|}\">",
-            "\t<fiv-ripple header [hover]=\"${3|true:false}\" (fivClick)=\"${1:ex}.toggle()\">",
-            "\t\t<ion-item>",
-            "\t\t\t<ion-label>${4:Expandable Header}</ion-label>",
-            "\t\t\t<fiv-expandable-indicator icon=\"${5:ios-arrow-down}\"></fiv-expandable-indicator>",
-            "\t\t</ion-item>",
-            "\t</fiv-ripple>",
-            "\t<ion-list content>",
-            "\t\t<ion-item>${6:Expandable Content (height depends on contents size)}</ion-item>",
-            "\t</ion-list>",
-            "</fiv-expandable>"
-        ],
-        "description": "<fiv-expandable> w/ <ion-item> and <fiv-expandable-indicator>"
-    },
-    "fiv-expandable-indicator": {
-        "prefix": "f-expandable-indicator",
-        "body": [
-            "<fiv-expandable-indicator icon=\"${1:ios-arrow-down}\"></fiv-expandable-indicator>"
-        ],
-        "description": "<fiv-expandable-indicator>"
-    },
-    "fiv-gallery": {
-        "prefix": "f-gallery",
-        "body": [
-            "<fiv-gallery>",
-            "$0",
-            "</fiv-gallery>"
-        ],
-        "description": "<fiv-gallery>"
-    },
-    "fiv-gallery-w-image": {
-        "prefix": "f-gallery-w-image",
-        "body": [
-            "<fiv-gallery>",
-            "\t<fiv-gallery-image [src]=\"${1:image}\"></fiv-gallery-image>",
-            "</fiv-gallery>"
-        ],
-        "description": "<fiv-gallery-w-image>"
-    },
-    "fiv-gallery-image": {
-        "prefix": "f-gallery-image",
-        "body": [
-            "<fiv-gallery-image [src]=\"${1:image}\"></fiv-gallery-image>"
-        ],
-        "description": "<fiv-gallery-image>"
-    },
-    "fiv-gallery-toolbar": {
-        "prefix": "f-gallery-toolbar",
-        "body": [
-            "<fiv-gallery-toolbar position=\"${1|bottom,top|}\">",
-            "\t$0",
-            "</fiv-gallery-toolbar>"
-        ],
-        "description": "<fiv-gallery-toolbar>"
-    },
-    "fiv-loading-button": {
-        "prefix": "f-loading-button",
-        "body": [
-            "<fiv-loading-button #${1:button} (fivButtonClick)=\"${2:login}(${1:button})\" [disabled]=\"${3:loginForm}.invalid\">${4:Login}</fiv-loading-button>"
-        ],
-        "description": "<fiv-loading-button>"
-    },
-    "fiv-loading-content": {
-        "prefix": "f-loading-content",
-        "body": [
-            "<fiv-loading-content #${2:content} (fivRefresh)=\"${1:fivRefresh}(${2:content})\"",
-            "\t(fivProgressChanged)=\"${3:fivProgressChanged}(\\$event)\"",
-            "\t[hintText]=\"'${4:new posts}'\" [minPullHeight]=\"${5:112}\"",
-            "\t[maxPullHeight]=\"${6:168}\">",
-            "$0",
-            "</fiv-loading-content>"
-        ],
-        "description": "<fiv-loading-content>"
-    },
-    "fiv-loading-fab": {
-        "prefix": "f-loading-fab",
-        "body": [
-            "<fiv-loading-fab checkmark=\"${1:true}\" (onComplete)=\"${2:onCompleted()}\" loading=\"${3:true}\" #fab (click)=\"fab.loading ? fab.complete() : fab.toggleSpinner()\"",
-            "\thorizontal=\"${4:end}\" vertical=\"${5:bottom}\" icon=\"${6:add}\" spinColor=\"${7:dark}\" fabColor=\"${8:light}\">",
-            "</fiv-loading-fab>"
-        ],
-        "description": "<fiv-loading-fab>"
-    },
-    "fiv-loading-progress-bar": {
-        "prefix": "f-loading-progress-bar",
-        "body": [
-            "<fiv-loading-progress-bar (fivComplete)=\"${1:onLoadingComplete}(\\$event)\" #${2:bar}></fiv-loading-progress-bar>"
-        ],
-        "description": "<fiv-loading-progress-bar>"
-    },
-    "fiv-password-input": {
-        "prefix": "f-password-input",
-        "body": [
-            "<fiv-password-input placeholder=\"${1:Password}\" formControlName=\"${2:password}\"></fiv-password-input>"
-        ],
-        "description": "<fiv-password-input>"
-    },
-    "fiv-ripple": {
-        "prefix": "f-ripple",
-        "body": [
-            "<fiv-ripple [round]=\"${1|true,false|}\" [hover]=\"${2|true,false|}\" (fivClick)=\"${3:onRippleClicked()}\"></fiv-ripple>"
-        ],
-        "description": "<fiv-ripple> effect for any component"
-    },
-    "fiv-router-item": {
-        "prefix": "f-router-item",
-        "body": [
-            "<fiv-router-item  *ngFor=\"let ${1:p} of ${2:appPages}\" [icon]=\"${1:p}.${3:icon}\" [text]=\"${1:p}.${4:title}\"",
-            "\t[matchChildUrl]=\"${5|true,false|}\" [pageUrl]=\"${1:p}.${6:url}\"",
-            "\tshape=\"${7|line,dot,rounded|}\" position=\"${8|left,right|}\"></fiv-router-item>"
-        ],
-        "description": "<fiv-router-item> works great in IonMenu w/ active state highlight of the current route"
-    },
-    "fiv-step": {
-        "prefix": "f-step",
-        "body": [
-            "<fiv-step [title]=\"${1:title}\" [subtitle]=\"${2:subtitle}\" [icon]=\"${3:add}\"></fiv-step>"
-        ],
-        "description": "<fiv-step>"
-    },
-    "fiv-step-loop": {
-        "prefix": "f-step-loop",
-        "body": [
-            "<fiv-step *ngFor=\"let ${1:step} of ${2:steps}\" [title]=\"${1:step}.${3:title}\" [subtitle]=\"${1:step}.${4:subtitle}\" [icon]=\"${1:step}.${5:add}\"></fiv-step>"
-        ],
-        "description": "<fiv-step> w/ *ngFor"
-    },
-    "fiv-step-full": {
-        "prefix": "f-step-full",
-        "body": [
-            "<fiv-step [title]=\"${1:title}\" [subtitle]=\"${2:subtitle}\" [icon]=\"${3:add}\" [open]=\"${4:true}\" [index]=\"${5:1}\" [isLast]=\"${6:false}\" ></fiv-step>"
-        ],
-        "description": "<fiv-step>"
-    },
-    "fiv-stepper": {
-        "prefix": "f-stepper",
-        "body": [
-            "<fiv-stepper #${1:stepper} (fivClick)=\"${2:onStepClicked}($event)\">",
-            "\t<fiv-step [title]=\"${3:title}\" [subtitle]=\"${4:subtitle}\" [icon]=\"${5:add}\"></fiv-step>",
-            "</fiv-stepper>"
-        ],
-        "description": "<fiv-stepper> w/ <fiv-step>"
-    },
-    "fiv-stepper-loop": {
-        "prefix": "f-stepper-loop",
-        "body": [
-            "<fiv-stepper #${1:stepper} (fivClick)=\"${2:onStepClicked}($event)\">",
-            "\t<fiv-step *ngFor=\"let ${3:step} of ${4:steps}\" [title]=\"${3:step}.${5:title}\" [subtitle]=\"${3:step}.${6:subtitle}\" [icon]=\"${3:step}.${7:add}\"></fiv-step>",
-            "</fiv-stepper>"
-        ],
-        "description": "<fiv-stepper> w/ <fiv-step>"
-    },
-    "fiv-toolbar-search": {
-        "prefix": "f-toolbar-search",
-        "body": [
-            "<fiv-toolbar-search (fivClose)=\"${1:onSearchbarClose()}\" (fivInputChange)=\"${2:onInputChange()}\"  placeholder=\"${3:Enter search query}\" title=\"${4:Titel}\">",
-            "\t<ion-menu-button start></ion-menu-button>",
-            "</fiv-toolbar-search>"
-        ],
-        "description": "<fiv-toolbar-search> w/ <ion-menu-button>"
-    }
+  "fiv-app-bar": {
+    "prefix": "f-app-bar",
+    "body": [
+      "<fiv-app-bar position=\"${1|center,left,right|}\" fabVisible=\"${2|true,false|}\" icon=\"${3:add}\">",
+      "</fiv-app-bar>"
+    ],
+    "description": "<fiv-app-bar>"
+  },
+  "fiv-bottom-sheet": {
+    "prefix": "f-bottom-sheet",
+    "body": [
+      "<fiv-bottom-sheet [(state)]=\"${1:drawerState}\" [minimumHeight]=\"${2:24}\" [dockedHeight]=\"${3:170}\" [distanceTop]=\"${4:56}\" [shouldBounce]=\"${5|true,false|}\">",
+      "\t<fiv-bottom-sheet-content [float]=\"${6|true,false|}\" [rounded]=\"${7|true,false|}\" [handle]=\"${8|true,false|}\">",
+      "\t\t<ion-card>",
+      "\t\t\t<ion-card-header>",
+      "\t\t\t\t<ion-card-subtitle>Awesome Subtitle</ion-card-subtitle>",
+      "\t\t\t\t<ion-card-title>Awesome Title</ion-card-title>",
+      "\t\t\t</ion-card-header>",
+      "\t\t\t<ion-card-content>",
+      "\t\t\t\tAwesome content",
+      "\t\t\t</ion-card-content>",
+      "\t\t</ion-card>",
+      "\t</fiv-bottom-sheet-content>",
+      "</fiv-bottom-sheet>"
+    ],
+    "description": "<fiv-bottom-sheet>"
+  },
+  "fiv-bottom-sheet-content": {
+    "prefix": "f-bottom-sheet-content",
+    "body": [
+      "<fiv-bottom-sheet-content [float]=\"${1|true,false|}\" [rounded]=\"${2|true,false|}\" [handle]=\"${3|true,false|}\">",
+      "\t<ion-card>",
+      "\t\t<ion-card-header>",
+      "\t\t\t<ion-card-subtitle>Awesome Subtitle</ion-card-subtitle>",
+      "\t\t\t<ion-card-title>Awesome Title</ion-card-title>",
+      "\t\t</ion-card-header>",
+      "\t\t<ion-card-content>",
+      "\t\t\tAwesome content",
+      "\t\t</ion-card-content>",
+      "\t</ion-card>",
+      "</fiv-bottom-sheet-content>"
+    ],
+    "description": "<fiv-bottom-sheet-content>"
+  },
+  "fiv-center": {
+    "prefix": "f-center",
+    "body": [
+      "[fivCenter]=\"{vertical: ${1|true,false|}, horizontal: ${2|true,false|}}\""
+    ],
+    "description": "[fiv-center] directive to center horizontal and vertical"
+  },
+  "fiv-collapse-menu": {
+    "prefix": "f-collapse-menu",
+    "body": [
+      "[fivCollapseMenu]=\"${1|true,false|}\" [hoverMenu]=\"${1|true,false|}\" #menu=menuCollapse"
+    ],
+    "description": "[fivCollapseMenu] directive to collapse your menu, add this to <ion-menu>"
+  },
+  "fiv-collapsable-menu-button": {
+    "prefix": "f-collapsable-menu-button",
+    "body": [
+      "<ion-buttons slot=\"start\">",
+      "\t<fiv-collapsable-menu-button #mb *fivIf=\"['desktop']\" [menu]=\"menu\"></fiv-collapsable-menu-button>",
+      "</ion-buttons>"
+    ],
+    "description": "<fiv-collapsable-menu-button> add this to <ion-toolbar> in the menu"
+  },
+  "fiv-expandable": {
+    "prefix": "f-expandable",
+    "body": [
+      "<fiv-expandable #${1:ex} [isOpen]=\"${2|true,false|}\">",
+      "\t<ion-item header (click)=\"${1:ex}.toggle()\">",
+      "\t\t<ion-label>${3:Expandable Header}</ion-label>",
+      "\t\t<fiv-expandable-indicator icon=\"${4:ios-arrow-down}\"></fiv-expandable-indicator>",
+      "\t</ion-item>",
+      "\t<ion-list content>",
+      "\t\t<ion-item>${5:Expandable Content (height depends on contents size)}</ion-item>",
+      "\t</ion-list>",
+      "</fiv-expandable>"
+    ],
+    "description": "<fiv-expandable> w/ <ion-item> and <fiv-expandable-indicator>"
+  },
+  "fiv-expandable-ripple-header": {
+    "prefix": "f-expandable-ripple-header",
+    "body": [
+      "<fiv-expandable #${1:ex} [isOpen]=\"${2|true,false|}\">",
+      "\t<fiv-ripple header [hover]=\"${3|true:false}\" (fivClick)=\"${1:ex}.toggle()\">",
+      "\t\t<ion-item>",
+      "\t\t\t<ion-label>${4:Expandable Header}</ion-label>",
+      "\t\t\t<fiv-expandable-indicator icon=\"${5:ios-arrow-down}\"></fiv-expandable-indicator>",
+      "\t\t</ion-item>",
+      "\t</fiv-ripple>",
+      "\t<ion-list content>",
+      "\t\t<ion-item>${6:Expandable Content (height depends on contents size)}</ion-item>",
+      "\t</ion-list>",
+      "</fiv-expandable>"
+    ],
+    "description": "<fiv-expandable> w/ <ion-item> and <fiv-expandable-indicator>"
+  },
+  "fiv-expandable-indicator": {
+    "prefix": "f-expandable-indicator",
+    "body": [
+      "<fiv-expandable-indicator icon=\"${1:ios-arrow-down}\"></fiv-expandable-indicator>"
+    ],
+    "description": "<fiv-expandable-indicator>"
+  },
+  "fiv-gallery": {
+    "prefix": "f-gallery",
+    "body": ["<fiv-gallery>", "$0", "</fiv-gallery>"],
+    "description": "<fiv-gallery>"
+  },
+  "fiv-gallery-w-image": {
+    "prefix": "f-gallery-w-image",
+    "body": [
+      "<fiv-gallery>",
+      "\t<fiv-gallery-image [src]=\"${1:image}\"></fiv-gallery-image>",
+      "</fiv-gallery>"
+    ],
+    "description": "<fiv-gallery-w-image>"
+  },
+  "fiv-gallery-image": {
+    "prefix": "f-gallery-image",
+    "body": ["<fiv-gallery-image [src]=\"${1:image}\"></fiv-gallery-image>"],
+    "description": "<fiv-gallery-image>"
+  },
+  "fiv-gallery-toolbar": {
+    "prefix": "f-gallery-toolbar",
+    "body": [
+      "<fiv-gallery-toolbar position=\"${1|bottom,top|}\">",
+      "\t$0",
+      "</fiv-gallery-toolbar>"
+    ],
+    "description": "<fiv-gallery-toolbar>"
+  },
+  "fiv-icon": {
+    "prefix": "f-icon",
+    "body": [
+      "<fiv-icon slot=\"${1|start,end,icon-only|}\" [off]=\"${2:true,false}\" smallIcon=\"${3:pizza}\">",
+      "</fiv-icon>"
+    ],
+    "description": "<fiv-icon>"
+  },
+  "fiv-loading-button": {
+    "prefix": "f-loading-button",
+    "body": [
+      "<fiv-loading-button #${1:button} (fivButtonClick)=\"${2:login}(${1:button})\" [disabled]=\"${3:loginForm}.invalid\">${4:Login}</fiv-loading-button>"
+    ],
+    "description": "<fiv-loading-button>"
+  },
+  "fiv-loading-content": {
+    "prefix": "f-loading-content",
+    "body": [
+      "<fiv-loading-content #${2:content} (fivRefresh)=\"${1:fivRefresh}(${2:content})\"",
+      "\t(fivProgressChanged)=\"${3:fivProgressChanged}(\\$event)\"",
+      "\t[hintText]=\"'${4:new posts}'\" [minPullHeight]=\"${5:112}\"",
+      "\t[maxPullHeight]=\"${6:168}\">",
+      "$0",
+      "</fiv-loading-content>"
+    ],
+    "description": "<fiv-loading-content>"
+  },
+  "fiv-loading-fab": {
+    "prefix": "f-loading-fab",
+    "body": [
+      "<fiv-loading-fab checkmark=\"${1:true}\" (onComplete)=\"${2:onCompleted()}\" loading=\"${3:true}\" #fab (click)=\"fab.loading ? fab.complete() : fab.toggleSpinner()\"",
+      "\thorizontal=\"${4:end}\" vertical=\"${5:bottom}\" icon=\"${6:add}\" spinColor=\"${7:dark}\" fabColor=\"${8:light}\">",
+      "</fiv-loading-fab>"
+    ],
+    "description": "<fiv-loading-fab>"
+  },
+  "fiv-loading-progress-bar": {
+    "prefix": "f-loading-progress-bar",
+    "body": [
+      "<fiv-loading-progress-bar (fivComplete)=\"${1:onLoadingComplete}(\\$event)\" #${2:bar}></fiv-loading-progress-bar>"
+    ],
+    "description": "<fiv-loading-progress-bar>"
+  },
+  "fiv-password-input": {
+    "prefix": "f-password-input",
+    "body": [
+      "<fiv-password-input placeholder=\"${1:Password}\" formControlName=\"${2:password}\"></fiv-password-input>"
+    ],
+    "description": "<fiv-password-input>"
+  },
+  "fiv-ripple": {
+    "prefix": "f-ripple",
+    "body": [
+      "<fiv-ripple [round]=\"${1|true,false|}\" [hover]=\"${2|true,false|}\" (fivClick)=\"${3:onRippleClicked()}\"></fiv-ripple>"
+    ],
+    "description": "<fiv-ripple> effect for any component"
+  },
+  "fiv-router-item": {
+    "prefix": "f-router-item",
+    "body": [
+      "<fiv-router-item  *ngFor=\"let ${1:p} of ${2:appPages}\" [icon]=\"${1:p}.${3:icon}\" [text]=\"${1:p}.${4:title}\"",
+      "\t[matchChildUrl]=\"${5|true,false|}\" [pageUrl]=\"${1:p}.${6:url}\"",
+      "\tshape=\"${7|line,dot,rounded|}\" position=\"${8|left,right|}\"></fiv-router-item>"
+    ],
+    "description": "<fiv-router-item> works great in IonMenu w/ active state highlight of the current route"
+  },
+  "fiv-step": {
+    "prefix": "f-step",
+    "body": [
+      "<fiv-step [title]=\"${1:title}\" [subtitle]=\"${2:subtitle}\" [icon]=\"${3:add}\"></fiv-step>"
+    ],
+    "description": "<fiv-step>"
+  },
+  "fiv-step-loop": {
+    "prefix": "f-step-loop",
+    "body": [
+      "<fiv-step *ngFor=\"let ${1:step} of ${2:steps}\" [title]=\"${1:step}.${3:title}\" [subtitle]=\"${1:step}.${4:subtitle}\" [icon]=\"${1:step}.${5:add}\"></fiv-step>"
+    ],
+    "description": "<fiv-step> w/ *ngFor"
+  },
+  "fiv-step-full": {
+    "prefix": "f-step-full",
+    "body": [
+      "<fiv-step [title]=\"${1:title}\" [subtitle]=\"${2:subtitle}\" [icon]=\"${3:add}\" [open]=\"${4:true}\" [index]=\"${5:1}\" [isLast]=\"${6:false}\" ></fiv-step>"
+    ],
+    "description": "<fiv-step>"
+  },
+  "fiv-stepper": {
+    "prefix": "f-stepper",
+    "body": [
+      "<fiv-stepper #${1:stepper} (fivClick)=\"${2:onStepClicked}($event)\">",
+      "\t<fiv-step [title]=\"${3:title}\" [subtitle]=\"${4:subtitle}\" [icon]=\"${5:add}\"></fiv-step>",
+      "</fiv-stepper>"
+    ],
+    "description": "<fiv-stepper> w/ <fiv-step>"
+  },
+  "fiv-stepper-loop": {
+    "prefix": "f-stepper-loop",
+    "body": [
+      "<fiv-stepper #${1:stepper} (fivClick)=\"${2:onStepClicked}($event)\">",
+      "\t<fiv-step *ngFor=\"let ${3:step} of ${4:steps}\" [title]=\"${3:step}.${5:title}\" [subtitle]=\"${3:step}.${6:subtitle}\" [icon]=\"${3:step}.${7:add}\"></fiv-step>",
+      "</fiv-stepper>"
+    ],
+    "description": "<fiv-stepper> w/ <fiv-step>"
+  },
+  "fiv-toolbar-search": {
+    "prefix": "f-toolbar-search",
+    "body": [
+      "<fiv-toolbar-search (fivClose)=\"${1:onSearchbarClose()}\" (fivInputChange)=\"${2:onInputChange()}\"  placeholder=\"${3:Enter search query}\" title=\"${4:Titel}\">",
+      "\t<ion-menu-button start></ion-menu-button>",
+      "</fiv-toolbar-search>"
+    ],
+    "description": "<fiv-toolbar-search> w/ <ion-menu-button>"
+  }
 }

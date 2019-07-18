@@ -1,3 +1,17 @@
+## [0.2.3](https://github.com/fivethree-team/vscode-fivethree-snippets/compare/v0.2.1...v0.2.3) (2019-07-18)
+
+
+### Bug Fixes
+
+* **icon:** use name for icon ([e5b7819](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/e5b7819))
+
+
+### Features
+
+* **icon:** add fiv icon ([deed18d](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/deed18d))
+
+
+
 ## [0.2.2](https://github.com/fivethree-team/vscode-fivethree-snippets/compare/v0.2.1...v0.2.2) (2019-07-18)
 
 

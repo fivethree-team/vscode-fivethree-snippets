@@ -1,3 +1,12 @@
+## [0.2.2](https://github.com/fivethree-team/vscode-fivethree-snippets/compare/v0.2.1...v0.2.2) (2019-07-18)
+
+
+### Features
+
+* **icon:** add fiv icon ([deed18d](https://github.com/fivethree-team/vscode-fivethree-snippets/commit/deed18d))
+
+
+
 <a name="0.2.1"></a>
 ## [0.2.1](https://github.com/fivethree-team/vscode-fivethree-snippets/compare/v0.2.0...v0.2.1) (2019-04-27)
 

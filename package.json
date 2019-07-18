@@ -1,74 +1,74 @@
 {
-    "name": "vscode-fivethree-snippets",
-    "displayName": "Fivethree Snippets",
-    "description": "Fivethree Web Components Snippets for VS Code",
-    "version": "0.2.1",
-    "license": "MIT",
-    "publisher": "fivethree",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/fivethree-team/vscode-fivethree-snippets.git"
-    },
-    "bugs": {
-        "url": "https://github.com/fivethree-team/vscode-fivethree-snippets/issues"
-    },
-    "engines": {
-        "vscode": "^1.26.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "keywords": [
-        "fivethree",
-        "Ionic",
-        "Angular",
-        "TypeScript",
-        "Fastlane"
-    ],
-    "contributes": {
-        "languages": [
-            {
-                "id": "ruby",
-                "aliases": [
-                    "Ruby",
-                    "ruby"
-                ],
-                "filenamePatterns": [
-                    "Appfile",
-                    "Deliverfile",
-                    "Fastfile",
-                    "Gymfile",
-                    "Matchfile",
-                    "Scanfile",
-                    "Snapfile",
-                    "Podfile",
-                    "*.podspec",
-                    "Fastfile*",
-                    "*Fastfile"
-                ]
-            }
+  "name": "vscode-fivethree-snippets",
+  "displayName": "Fivethree Snippets",
+  "description": "Fivethree Web Components Snippets for VS Code",
+  "version": "0.2.2",
+  "license": "MIT",
+  "publisher": "fivethree",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fivethree-team/vscode-fivethree-snippets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fivethree-team/vscode-fivethree-snippets/issues"
+  },
+  "engines": {
+    "vscode": "^1.26.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "fivethree",
+    "Ionic",
+    "Angular",
+    "TypeScript",
+    "Fastlane"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "ruby",
+        "aliases": [
+          "Ruby",
+          "ruby"
         ],
-        "snippets": [
-            {
-                "language": "ruby",
-                "path": "./snippets/fastlane-fivethree.json"
-            },
-            {
-                "language": "html",
-                "path": "./snippets/html.json"
-            },
-            {
-                "language": "scss",
-                "path": "./snippets/scss.json"
-            },
-            {
-                "language": "typescript",
-                "path": "./snippets/typescript.json"
-            }
+        "filenamePatterns": [
+          "Appfile",
+          "Deliverfile",
+          "Fastfile",
+          "Gymfile",
+          "Matchfile",
+          "Scanfile",
+          "Snapfile",
+          "Podfile",
+          "*.podspec",
+          "Fastfile*",
+          "*Fastfile"
         ]
-    },
-    "scripts": {
-        "vscode:publish": "vsce publish",
-        "version": "conventional-changelog -p angular -i ./CHANGELOG.md -s"
-    }
+      }
+    ],
+    "snippets": [
+      {
+        "language": "ruby",
+        "path": "./snippets/fastlane-fivethree.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html.json"
+      },
+      {
+        "language": "scss",
+        "path": "./snippets/scss.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/typescript.json"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:publish": "vsce publish",
+    "version": "conventional-changelog -p angular -i ./CHANGELOG.md -s"
+  }
 }
